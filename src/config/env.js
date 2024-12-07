@@ -1,0 +1,20 @@
+require('dotenv').config();
+module.exports = {
+  PORT: process.env.PORT,
+  MONGODB_CONNECTION_STRING: process.env.MONGODB_CONNECTION_STRING,
+  SALT: process.env.SALT,
+  JWT_SECRET_KEY: process.env.JWT_SECRET_KEY,
+  JWT_EXPIRY: process.env.JWT_EXPIRY,
+  SENDGRID_API_KEY: process.env.SENDGRID_API_KEY,
+  SENDGRID_EMAIL: process.env.SENDGRID_EMAIL,
+  REDIS_HOST: process.env.REDIS_HOST,
+  REDIS_PORT: process.env.REDIS_PORT,
+  ENCRYPTION_ALGORITHM: process.env.ENCRYPTION_ALGORITHM,
+  ENCRYPTION_PASSWORD: process.env.ENCRYPTION_PASSWORD,
+  ENCRYPTION_SALT: process.env.ENCRYPTION_SALT,
+  ENCRYPTION_IV_LENGTH: process.env.ENCRYPTION_IV_LENGTH,
+  CMC_API_KEY: process.env.CMC_API_KEY,
+  ADMIN_EMAIL: process.env.ADMIN_EMAIL,
+  ADMIN_PASSWORD: process.env.ADMIN_PASSWORD,
+  TWO_FA_ISSUER: process.env.TWO_FA_ISSUER,
+};
